@@ -1,11 +1,14 @@
-#ifndef PLAYER.H
-#define PLAYER.H
+#include "wheel.h"
+#ifndef PLAYER_H
+#define PLAYER_H
 
-class player
+class Player
 {
-    
-
-
+    public:
+        Player();
+        
+        Wheel wheel;
+        int money;
 };
 
 #endif
