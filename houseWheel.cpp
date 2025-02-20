@@ -18,7 +18,5 @@ int HouseWheel::spin(int playerSpin) {
         maxVal++;
     }
 
-    cout << "The house is spinning...\n";
-
     return houseSpin;
 }
