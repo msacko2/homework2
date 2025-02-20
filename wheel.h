@@ -1,5 +1,5 @@
 #ifndef WHEEL.H
-#define WHEEL .H
+#define WHEEL.H
 
 class wheel
 {
