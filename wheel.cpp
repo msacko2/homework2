@@ -1,5 +1,10 @@
-#include "wheel.h"
+class Wheel {
+public:
+    Wheel();
+    int getMinVal();
+    void setMinVal(int value);
+    int getMaxVal();
+    void setMaxVal(int value);
 
-class wheel{
-
+    void spin(int &ball);
 };
