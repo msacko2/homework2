@@ -1,13 +1,20 @@
-#ifndef WHEEL.H
-#define WHEEL.H
+#ifndef WHEEL_H
+#define WHEEL_H
 
-class wheel
-{
+class Wheel {
     public:
+        Wheel();
 
-    private:
+        int getMinVal();
+        void setMinVal(int value);
+        int getMaxVal();
+        void setMaxVal(int value);
 
+        virtual int spin();
 
+    protected:
+        int minVal;
+        int maxVal;
 };
 
 #endif

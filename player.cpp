@@ -1,5 +1,5 @@
 #include "player.h"
 
-class player{
-
-};
+Player::Player() {
+    money = 100;
+}

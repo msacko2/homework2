@@ -6,7 +6,7 @@ CXXFLAGS = -std=c++11 -Wall -MMD
 LDFLAGS = 
 
 # Replace utils.cpp with all .cpp files created
-SRC = main.cpp 
+SRC = main.cpp player.cpp wheel.cpp
 
 OBJ = $(SRC:.cpp=.o)
 DEP = $(SRC:.cpp=.d) 
