@@ -11,7 +11,7 @@ class Wheel {
         void setMaxVal(int value);
 
         int spin();
-
+  
     protected:
         int minVal;
         int maxVal;
