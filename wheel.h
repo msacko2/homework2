@@ -10,8 +10,8 @@ class Wheel {
         int getMaxVal();
         void setMaxVal(int value);
 
-        virtual int spin();
-
+        int spin();
+  
     protected:
         int minVal;
         int maxVal;
